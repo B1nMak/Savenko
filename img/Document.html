@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0038)http://127.0.0.1:5500/homework/sg.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1 style=
-    "border: 3px dashed red;
+    <h1 style="border: 3px dashed red;
     background-color: yellow;">
     Simon and Garfunkel
     </h1> 
      
-    
-    <div style=
-    "border:1px solid green;
+    <div style="border:1px solid green;
     margin-top: 20px;
-    background-image: url(/img/SG1998.jpg);
-    background-repeat:no-repeat;
-    background-position: center
-    ;">
-<p>В 1964 году на лейбле Columbia был выпущен их дебютный альбом "Wednesday Morning 3AM". Пластинка прошла практически незамеченной, после чего пути музыкантов пошли врозь.
-    <br>
+    ">
+<p style="background-image:url(&#39;4QnSRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAcAAAAcgEyAAIAAAAUAAAAjodpAAQAAAABAAAApAAAANAAG3dAAAAnEAAbd0AAACcQQWRvYmUgUGhvdG9zaG9wIENTMiBXaW5kb3dzADIwMTM6MDg6MjggMTY6NTk6NTAAAAAAA6ABAAMAAAAB&#39;);">В 1964 году на лейбле Columbia был выпущен их дебютный альбом "Wednesday Morning 3AM". Пластинка прошла практически незамеченной, после чего пути музыкантов пошли врозь.
+    <br>    
     <br>
 В это время на долю музыкантов выпал неожиданный успех. Летом 1965 года импресарио Тим Уилсон, известный продюсированием ранних альбомов Дилана, осовременил звучание песни "The Sounds of Silence", написанной Саймоном под впечатлением от убийства президента Кеннеди, наложив на неё электрические гитары и ударные.<span style="text-decoration: underline;"> Без ведома авторов</span> новая версия была выпущена синглом и достигла первой строчки в национальных чартах. Эта запись была признана музыкальными критиками квинтэссенцией входившего тогда в моду фолк-рока.
     <br>
@@ -31,13 +25,11 @@
 За "The Sounds of Silence" последовали такие жемчужины фолк-рока, как "A Hazy Shade of Winter" и "Homeward Bound" - возможно, самые рафинированные и стильные образчики этого направления рок-музыки.</p>
     <br>
     </div> 
-    <div style=
-    "border-left:solid 1px blue;
+    <div style="border-left:solid 1px blue;
     border-right:double 3px red; 
     border-top:dotted 1px black;
     border-bottom:solid 4px green;
-    margin-top: 20px;
-    background-image:url('data:image/gif;base64,R0lGODlhGAArAIAAAObm5v///yH5BAAAAAAALAAAAAAYACsAAAJzjI+pqwAMkXMxzlfXpTlNg3UHF4RiGZrNxrYbk6od9p0gSJ6vjdeQC2xpLjyUT7dDfmQVYmkWjJJ8yV/NZeEAszTKwzns3oxh6RaHfqZh2tGa7VYzVx6UiJrzmIOZua7YwENls+NXRkPoZLgyJZgCCAZRAAA7')">
+    margin-top: 20px" ;="">
 
 
 <h2>Студийные альбомы</h2>
@@ -53,10 +45,47 @@
 <br>
 </div>
 
-<p style=
-"border:solid 1px green">
+<p style="border:solid 1px green">
 Несмотря на отдельные яркие песни, альбомы Саймона и Гарфанкела были по большей части неровными и оставляли ощущение недоговорённости. Наиболее радикальные критики были склонны обвинять дуэт в слащавости и стерильности.
 </p>
 
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
