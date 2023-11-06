@@ -1,0 +1,12 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.ramka{
+   
+    border-image: url('../../img/ramka.png') 27 space;
+    border-image-slice: 100%;
+    border-image-width: 1; 
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+}

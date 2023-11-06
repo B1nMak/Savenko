@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.left{
+    background-image: url(../../img/ramka_bok.png);
+    background-repeat: repeat-y;
+}
+.right{
+    background-image: url(../../img/right_ctorona.jpeg);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.top{
+    background-image: url(../../img/ramka_top.png);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.bottom{
+    background-image: url(../../img/ramka_bottom.jpeg);
+    background-position:bottom;
+    background-repeat: repeat-x;
+}
+.left_top{
+    background-image: url(../../img/left_top.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.left_bottom{
+    background-image: url(../../img/left_bottom.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.right_top{
+    background-image: url(../../img/right_top.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.right_bottom{
+    background-image: url(../../img/right_bottom.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.content{
+    white-space: pre-wrap;
+    padding: 50px;
+    font-size: 20px;
+}
