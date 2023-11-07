@@ -1,0 +1,48 @@
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url(../../img/ball3.png) ;
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.headder{
+    height: 100px;
+    padding-left: 400px;
+    background-color: aqua;
+    color: blue;
+    font-size: 50px;
+}
+.menu{
+    background-color:burlywood;
+    height: 600px;
+    width: 400px;
+    float:left;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+.football{
+    float: left;
+    width: 350px;
+}
+.zagolovok{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.text{
+    font-size: 35px;
+    font-weight: 200;
+    opacity: 1;
+}
+.footer{
+    height: 100px;
+    padding-left: 400px;
+    background-color: aqua;
+    color: blue;
+    font-size: 50px;
+}
