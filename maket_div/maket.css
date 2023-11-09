@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width{
+    background-image: url(../img/tochnoball.png);
+    background-position: 20% top ;
+    background-repeat: repeat-x;
+    height: 300px;
+    background-color: red;
+}
+.second{
+    background-image: url(../img/200ppx.png);
+    background-position: right top;
+    background-repeat: repeat-x;
+    height: 300px;
+    float:right;
+    width: 200px;
+    
+}

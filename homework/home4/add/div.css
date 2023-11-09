@@ -1,0 +1,18 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-image-source: url(../../../img/ramka.png);
+    border-image-width: 70px;
+    border-image-slice:100;
+   
+}
+
+.ramka{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size:40px;
+    white-space: pre-wrap;
+    text-align: center;
+}
