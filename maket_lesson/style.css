@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #FAFBFC;
+}
 a{
     color:inherit;
     text-decoration: none;    
@@ -15,6 +18,7 @@ a{
 
 .header{
     background-image: url(../img/for_maket.jpg);
+    
 
 }
 .left_head{
@@ -88,27 +92,31 @@ a{
 .sub_conteiner{
     width: 1168px;
     margin: 0 auto;
-    margin-bottom:60px;
+    margin-top: -100px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
 }
 .sub_top{
 height: 40px;
-
+margin-bottom: 20px;
 }
 .place{
     float:left;
     border-radius: 5px;
     border: 1px solid;
-     width: 150px;
+     width: 200px;
      height: 40px;
-    margin-right: 120px;
+    margin-right: 50px;
     text-align: center;
 }
 .trip{
     float:left;
     border-radius: 5px;
     border: 1px solid;
-    margin-right: 120px;
-    width: 150px;
+    margin-right: 70px;
+    width: 200px;
     height: 40px;
     text-align: center;
 }
@@ -116,8 +124,8 @@ height: 40px;
     float:left;
     border-radius: 5px;
     border: 1px solid;
-    margin-right: 120px;
-    width: 150px;
+    margin-right: 50px;
+    width: 250px;
     height: 40px;
     text-align: center;
 }
@@ -125,8 +133,8 @@ height: 40px;
     float:left;
     border-radius: 5px;
     border: 1px solid;
-    margin-right:120px ;
-    width: 150px;
+    margin: auto;
+    width: 200px;
     height: 40px;
     text-align: center;
     margin-bottom: 20px;
@@ -137,8 +145,275 @@ height: 40px;
     height: 30px;
     width: 100px;
     text-align: center;
+    margin-top: 20px;
+    border-radius: 2px;
 }
 .promocode{
+    margin-top: 20px;
     float: right;
-    margin-right:20px
+    margin-right:10px
+}
+.flight_black{
+    float: left;
+    border-right: 1px solid;
+
+}
+.sub_bottom{
+    float: right;
+    padding-bottom: 20px;
+    
+}
+.plan_trip{
+    clear: both;
+    width: 1168px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.text_head{
+    float: left;
+    margin-bottom: 20px;
+
+}
+.botton_see_more{
+    float: right;
+    border: 1px solid;
+    height: 30px;
+    vertical-align:middle;
+    margin:25px
+}
+.mini_text{
+    color: var(--Blackish-Green, #121);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.75;
+    clear: left;
+}
+.places_for_trips{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1168px;
+    
+}
+.contries{
+    background-color: #fff;
+    height: 90px;
+    width: 360px;
+    border-radius: 16px;
+    float: left;
+    margin: 10px;
+    
+}
+.city{
+    float: left;
+}
+.city_country{
+    float: left;
+    padding-top: 25px;
+    margin-left: 16px;
+}
+.banners{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    
+}
+.banner_left{
+    float: left;
+    background-image: url(../img/flights.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 420px;
+    width: 600px;
+    padding-bottom: 30px;
+    
+}
+.banner_right{
+    
+    float: left;
+    background-image: url(../img/hotels.png);
+    margin-left: 24px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 420px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+.botton_banner{
+    background-color: #8DD3BB;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.white_banner{
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.reviews{
+    clear: both;
+    width: 1168px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.list_reviews{
+    padding-left: 50px;
+    margin-top: 40px;
+
+}
+.all_reviews{
+    float: left;
+    background-color: #fff;
+    width: 419px;
+    height: 590px;
+    margin-right: 24px;
+    padding: 24px;
+}
+
+.review_text{
+    color: var(--Blackish-Green, #121);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.75;
+    margin-top: 16px;
+}
+.view_more{
+    margin-top: 14px;
+    float: right;
+    margin-right:10px
+}
+.star{
+    float: left;
+    margin-top: 24px;
+}
+.name{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.name_company{
+    font-size: 12px;
+    color: var(--Blackish-Green, #121);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.75;
+}
+.google{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.google_img{
+    margin-top: 16px;
+}
+.img_review{
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+.footer{
+    margin-top: 300px;
+    height: 420px;
+    background-color: #8DD3BB;
+    width: 100%;
+    padding-top: 170px;
+
+}
+.img_on_footer{
+    float: left;
+}
+.more_information{
+    padding: 32px 104px 64px 104px;
+    padding-top: 100px;
+}
+.social{
+    padding-top: 24px;
+
+}
+.social_media{
+    margin-right: 10px;
+}
+.lists_of_information{
+    float:left;
+    margin-left: 140px;
+    
+}
+.information{
+    height: 175px;
+    width: 140px;
+    float:left;
+    margin-right: 50px;
+}  
+ul{
+   
+    list-style: none;
+    float: left;
+  
+}
+
+li{
+    margin-top: 5px;
+    font-size:12px;
+    opacity: 0.75px;
+}
+.name_list{
+    font-size: 16px;
+    font-weight: 900;
+
+}
+.subscribe{
+    background-color: #CDEAE1;
+    height: 300px;
+    width: 1184px;
+    margin: 0 auto;
+    margin-top: -425px;
+    border-radius: 10px;
+    padding: 16px;
+    overflow: hidden;
+}
+.head_mail{
+    font-size: 40px;
+    width: 300px;
+    
+}
+
+.text_mail{
+    margin-top: 50px;
+    font-size: 10px;
+
+}
+.mini_text_mail{
+    color: var(--Blackish-Green, #121);
+    font-size: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.75;
+   
+}
+.your_email{
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    background-color: #fff;
+    float: left;
+}
+.botton_subscribe{
+    background-color: #121;
+    color: #fff;
+    width: 104px;
+    height: 30px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 4px;
+}
+.img_mail{
+    float: right;
+    
 }
