@@ -51,7 +51,7 @@ a{
 }
 .stay{
     float:left;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .center_head{
     text-align: center;
@@ -156,6 +156,7 @@ margin-bottom: 20px;
 .flight_black{
     float: left;
     border-right: 1px solid;
+    padding-right: 20px;
 
 }
 .sub_bottom{
