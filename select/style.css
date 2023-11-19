@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div:first-child li:first-child > a{
+    color: red;
+}
+div li:nth-child(2) a{
+    color: green;
+}
+div li:last-child a{
+    color: blue;
+}
+div p em a{
+    color:yellow;
+}
+div span a{
+    color: black;
+}
+p a{
+    color: gray;
+}
+ul li:first-child a{
+    color: orange;
+}
+ul li:first-child span a{
+    color:pink;
+}
+
+ul li:first-child em a{
+    color: violet;
+}
+ul li:nth-child(2) em a{
+    color: aqua;
+}
+ul li:last-child > div ul li:first-child > a{
+   color: indigo; 
+}
+ul div li:nth-child(2) em > a{
+    color: chocolate;
+}
+ul div li:last-child span > a{
+    color: brown;
+}
+ul div p > a{
+    color: white;
+    background-color: black;
+}
