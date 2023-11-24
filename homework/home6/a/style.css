@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    float: left;
+    margin-right: 20px;
+}
+div:first-child a{
+    margin-bottom: 30px;
+    padding-right: 10px;
+    float: left;
+    border-right:5px solid red  ;
+}
+a:hover{
+    color: red;
+}
+div a{
+    margin-bottom: 30px;
+    padding-right: 10px;
+    float: left;
+    
+}
+
+div:nth-child(even) a{
+    margin-bottom: 30px;
+    padding-right: 10px;
+    float: left;
+    border-right:5px solid red  ;
+}
+div:nth-child(3) a{
+    margin-bottom: 30px;
+    padding-right: 10px;
+    float: left;
+    border-right:5px solid red  ;
+}

@@ -1,0 +1,42 @@
+@media all and (max-width: 400px){
+    
+    
+    .header{
+        height: 500px;
+    }
+    .header_item{
+        margin-top: 45px;
+    }
+    .menu{
+        width: 350px;
+        margin: 25px;
+        
+    }
+    .menu_list{
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 300px;
+        height: 50px;
+    }
+    .content_item_left{
+        height: 250px;
+        width: 300px;
+       margin: 50px 20px 0px 25px;
+    }
+    .content_item_right{
+        height: 250px;
+        width: 300px;
+        margin-left: 25px;
+    }
+    .content{
+        margin: 25px;
+       clear: both;
+       
+    }
+    .footer{
+        display: none;
+    }
+    .banner{
+        display: none;
+    }
+}
