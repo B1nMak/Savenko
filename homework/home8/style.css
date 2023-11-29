@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: double red 3px;
+    width: 500px;
+}
+.name_work{
+    width: 400px;
+}
+.sience{
+    width: 400px;
+}
+.text_comment{
+    width: 400px;
+}
+.button{
+    width: 200px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 1440px;
+}
+.text_head{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+div h1:first-child{
+    margin-left: 140px;
+
+}
+div  h4:last-child{
+    color:#5B5B5B;
+}
+.share_print{
+    margin-top: 50px;
+}
+.share{
+    float: right;
+    margin-right: 30px;
+    color:#5B5B5B;
+}
+.print{
+    float: right;
+    margin-right: 30px;
+    color: #5B5B5B;
+  
+}
+.menu_item{
+    display: inline-block;
+    text-align: center;
+}
