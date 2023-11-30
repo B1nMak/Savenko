@@ -39,7 +39,40 @@
             <br>
             <input type="submit" class="button" >
     </fieldset>
+    <br>
+    <br>
+    <fieldset class="border2">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        
+        <label for="form1">название статьи:</label> 
+        
+        <input class="name_work" type="text" name="nameOfWork"  id="form1">
+        <br>
+        <label for="">рубрика:</label>
+        
+        <select class="sience" name="name_sience"  >
+            <option value="tehnic">компьютерная техника</option>
+            <option value="grafik">графика и дизайн</option>
+            <option value="programm" selected>программирование</option>
+        </select>
+        <br>
+        <span>Публикация:</span>
+        <input type="radio" name="gde" id="mecto1"><label for="mecto1">на сайте</label>
+        
+        <input type="radio" name="gde" id="mecto2"><label for="mecto2">в журнале</label>
+        
+        <input type="radio" name="gde" id="mecto3"><label for="mecto3">на сайте и в журнале</label>
+        <br>
+        <span>Разрешить коментарии:</span>
+        <input type="checkbox" name="comment" value="yes">
+        <br>
+        <p>Текст статьи:</p>
+        <textarea class="text_comment" name="text_comment"></textarea>
+        <br>
+        <input type="submit" class="button" >
+</fieldset>
 </form>
+
 
 </body>
 </html>

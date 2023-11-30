@@ -9,6 +9,7 @@
 }
 .name_work{
     width: 400px;
+    
 }
 .sience{
     width: 400px;
@@ -18,4 +19,14 @@
 }
 .button{
     width: 200px;
+}
+.border2{
+    border: double red 3px;
+    width: 700px;
+}
+label{
+    margin-right: 30px;
+}
+span{
+    margin-right: 30px;
 }
