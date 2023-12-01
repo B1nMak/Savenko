@@ -149,9 +149,10 @@ margin-bottom: 20px;
     border-radius: 2px;
 }
 .promocode{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     float: right;
-    margin-right:10px
+    margin-right:20px
 }
 .flight_black{
     float: left;
@@ -417,4 +418,49 @@ li{
 .img_mail{
     float: right;
     
+}
+.form{
+    float: left;
+    position: relative;
+    width:250px;
+    height: 40px;
+    margin-left: 30px;
+}
+.name-form{
+    font-size:14px;
+    position: absolute;
+    bottom: 32px;
+    left: 14px;
+    background-color: #fff;
+}
+input{
+    border: 1px solid;
+    border-radius: 5px ;
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+}
+.swap{
+    position: absolute;
+    left: 220px;
+    top: 7px;
+}
+.down{
+    position: absolute;
+    left: 220px;
+    top: 7px; 
+}
+
+button{
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #8DD3BB;
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none;
+}
+.button_submit{
+    vertical-align: middle;
 }

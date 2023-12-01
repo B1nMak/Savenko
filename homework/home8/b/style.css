@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ralative{
+    position: relative;
+    margin: 50px;
+}
+.biohazard{
+    position: absolute;
+    left: 505px;
+    top: 100px;
+}
+.no_smoke{
+    position: absolute;
+    left: 575px;
+    top: 150px;
+}
+.man_woman{
+    position: absolute;
+    left: 715px;
+    top: 90px;
+}
+.yin_yang{
+    position: absolute;
+    left: 604px;
+    top: 290px;
+}
