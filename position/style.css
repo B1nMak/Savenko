@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    position: relative;
+    height: 700px;
+    transition: 0.5;
+    width: 500px;
+}
+.image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    
+}
+.text{
+    transition: 0.5s;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #3e2f2fcf;
+    color: pink;
+    height: 408px;
+    width: 290px;
+    left: 90px;
+    top: 100px;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0;
+}
+.text:hover{
+    opacity:1;
+    left: 100px;
+    top: 150px;
+    
+
+}

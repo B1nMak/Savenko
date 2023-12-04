@@ -1,0 +1,14 @@
+.name{
+    text-align: center;
+    font-size: 25px;
+}
+.form{
+    position: relative;
+    left: 880px;
+    bottom: 25px;
+    width: 200px;
+}
+.age{
+    text-align: center;
+    font-size: 25px;
+}
