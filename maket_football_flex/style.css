@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #94dfe5;
+}
+.header_text{
+    font-size: 50px;
+    color: blue;
+}
+.middle{
+    display: flex;
+
+}
+.menu{
+    flex-shrink: 0;
+    font-size: 40px;
+    background-color: yellow;
+}
+.menu ul{
+    padding-left: 40px;
+    
+}
+.content{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    float: left;
+    flex-grow:1;
+    width: 500px;
+    height: 300px;
+    
+}
+.text{
+    
+    font-size:50px;
+    flex-grow: 1;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #94dfe5;
+    height: 100px;
+}

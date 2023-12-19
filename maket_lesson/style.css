@@ -216,6 +216,8 @@ margin-bottom: 20px;
     margin-left: 16px;
 }
 .banners{
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 50px;
     padding-left: 50px;
@@ -264,6 +266,9 @@ margin-bottom: 20px;
 .list_reviews{
     padding-left: 50px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 
 }
 .all_reviews{
@@ -273,6 +278,8 @@ margin-bottom: 20px;
     height: 590px;
     margin-right: 24px;
     padding: 24px;
+    border-radius: 10px;
+    
 }
 
 .review_text{
@@ -463,4 +470,34 @@ button{
 }
 .button_submit{
     vertical-align: middle;
+}
+.background1{
+    position: absolute;
+    background: rgba(141, 211, 187, 0.40);
+    width: 419px;
+    height: 590px;
+    z-index: -1;
+    border-radius: 10px;
+    left: 95px ;
+    top:20px
+}
+.background2{
+    position: absolute;
+    background: rgba(141, 211, 187, 0.40);
+    width: 419px;
+    height: 590px;
+    z-index: -1;
+    border-radius: 10px;
+    left: 540px ;
+    top:20px
+}
+.background3{
+    position: absolute;
+    background: rgba(141, 211, 187, 0.40);
+    width: 419px;
+    height: 590px;
+    z-index: -1;
+    border-radius: 10px;
+    left:980px ;
+    top:20px
 }

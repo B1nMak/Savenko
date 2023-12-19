@@ -1,0 +1,19 @@
+@media all and (max-width:800px){
+    .menu{
+        background: none;
+
+    }
+    .middle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    img{
+        float: none;
+       
+    }
+    .text{
+       
+    
+        font-size: 25px;
+    }
+}
