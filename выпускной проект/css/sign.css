@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box; }
+
+.cont {
+  display: flex;
+  height: 100%; }
+  .cont .left {
+    width: 50%; }
+    .cont .left .logo {
+      margin: 40px; }
+    .cont .left .sign {
+      margin-left: 170px;
+      font-size: 50px;
+      font-weight: 800;
+      margin-top: 70px; }
+    .cont .left .social {
+      display: flex;
+      margin-left: 170px;
+      margin-top: 30px; }
+      .cont .left .social .google {
+        text-decoration: none;
+        color: #323142; }
+        .cont .left .social .google div {
+          width: 200px;
+          border: #323142 1px solid;
+          border-radius: 15px 0 0 15px;
+          text-align: center; }
+      .cont .left .social .apple {
+        text-decoration: none;
+        color: #323142; }
+        .cont .left .social .apple div {
+          width: 200px;
+          border: #323142 1px solid;
+          border-radius: 0 15px 15px 0;
+          text-align: center; }
+    .cont .left .or {
+      margin-left: 355px;
+      margin-top: 50px; }
+    .cont .left .creds {
+      margin-left: 170px; }
+      .cont .left .creds .name {
+        width: 400px;
+        height: 55px;
+        border-radius: 20px;
+        padding: 20px; }
+      .cont .left .creds .mail {
+        margin-top: 15px;
+        width: 400px;
+        height: 55px;
+        border-radius: 20px;
+        padding: 20px; }
+      .cont .left .creds .pass {
+        margin-top: 15px;
+        width: 400px;
+        height: 55px;
+        border-radius: 20px;
+        padding: 20px; }
+      .cont .left .creds .btn {
+        margin-top: 40px;
+        width: 400px;
+        height: 55px;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        background-color: #6C5FBC;
+        color: #fff; }
+    .cont .left .log_in {
+      margin-top: 10px;
+      margin-left: 250px; }
+      .cont .left .log_in a {
+        text-decoration: none;
+        color: #6C5FBC; }
+    .cont .left .privacy {
+      margin-top: 100px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      color: #718096; }
+      .cont .left .privacy a {
+        text-decoration: none;
+        color: #718096; }
+  .cont .right {
+    background-color: #6C5FBC;
+    width: 50%; }

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../fontawesome-/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Eatly</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <div class="head_l">
+                <div class="left">
+                    <div class="logo">
+                    <img src="../img/Logo.png" alt=""><a href="index.html"> eatly</a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="head_r">
+                <a class="sign" href="#">sign up</a>
+                <a href="#" class="log">login</a>
+            </div>
+        </div>
+        <div class="line"></div>
+
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/banner.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/back.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/meat.avif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="search">
+            <form class="find" action="" method="get">
+                <input type="search" name="request" id="find" placeholder="search" value="">
+                <option value="Burger King"></option>
+                <option value="Chicken King"></option>
+                <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+
+        <div class="choice">
+            <div class="food"><a href="menu_food.html" class="eat">Food</a></div>
+            <div class="restorant"><a href="" class="rest">Restorants</a></div>
+        </div>
+
+        <div class="our_restorant">
+            <div class="our">
+                Our Top <span>Restaurants</span>
+            </div>
+        </div>  
+        <div class="items">
+            <div class="item1">
+                <div class="img1"></div>
+                <div class="describe">
+                    <div class="type1">Healthy</div>
+                    <p class="name1">The Chicken King</p>
+                    <div class="checkbox1">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorOne()" class="mark" id="book1">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="img2"></div>
+                <div class="describe">
+                    <div class="type2">Trending</div>
+                    <p class="name2">The Burger King</p>
+                    <div class="checkbox2">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorTwo()" class="mark" id="book2">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="img3"></div>
+                <div class="describe">
+                    <div class="type1">Healthy</div>
+                    <p class="name1">The Chicken King</p>
+                    <div class="checkbox3">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorThree()" class="mark" id="book3">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="img4"></div>
+                <div class="describe">
+                    <div class="type2">Trending</div>
+                    <p class="name2">The Burger King</p>
+                    <div class="checkbox4">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorFour()" class="mark" id="book4">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item5">
+                <div class="img5"></div>
+                <div class="describe">
+                    <div class="type1">Healthy</div>
+                    <p class="name1">The Chicken King</p>
+                    <div class="checkbox5">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorFive()" class="mark" id="book5">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item6">
+                <div class="img6"></div>
+                <div class="describe">
+                    <div class="type2">Trending</div>
+                    <p class="name2">The Burger King</p>
+                    <div class="checkbox6">
+                        <div class="time">24 min &middot;</div>
+                        <button onclick="changeColorSix()" class="mark" id="book6">
+                            <div><i class="fa-solid fa-bookmark"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+
+
+    </div>
+
+<footer>
+    
+        <div class="h_f">
+            <div class="left">
+                <div class="logo">
+                <img src="../img/Logo.png" alt=""> eatly
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="social">
+            <p class="copy">&copy; 2023 EATLY All Rights Reserved.</p>
+        </div>
+    
+</footer>
+<script src="script2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

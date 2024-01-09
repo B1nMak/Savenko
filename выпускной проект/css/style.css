@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins"; }
+  font-family: "Poppins";
+  box-sizing: border-box; }
 
 .conteiner {
   margin: 0 auto;
@@ -24,6 +25,9 @@
           .conteiner .header .head_l .left .logo img {
             margin-right: 11px;
             vertical-align: middle; }
+          .conteiner .header .head_l .left .logo a {
+            text-decoration: none;
+            color: #6C5FBC; }
         .conteiner .header .head_l .left .menu ul {
           padding: 10px;
           display: flex;
@@ -47,20 +51,20 @@
         color: #F9F9F9;
         background-color: #6C5FBC;
         text-decoration: none;
-        width: 68px;
+        width: 128px;
         height: 17px;
         padding: 17px;
-        padding-bottom: 20px;
+        padding-bottom: 42px;
         text-align: center;
         border-radius: 17px; }
       .conteiner .header .head_r .sign:hover {
         transform: scale(1.2);
         box-shadow: 5px 5px 15px 5px #D0D0D0; }
       .conteiner .header .head_r .log {
-        width: 68px;
+        width: 108px;
         height: 17px;
         padding: 17px;
-        padding-bottom: 20px;
+        padding-bottom: 42px;
         text-align: center;
         text-decoration: none;
         font-size: 15px;
@@ -193,7 +197,8 @@
         height: 177px; }
       .conteiner .our_restorant .three_itm .item1 .describe {
         background-color: #ededed;
-        height: 105px; }
+        height: 130px;
+        border-radius: 0 0 15px 15px; }
         .conteiner .our_restorant .three_itm .item1 .describe .type1 {
           text-align: center;
           width: 90px;
@@ -203,8 +208,26 @@
         .conteiner .our_restorant .three_itm .item1 .describe .name1 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item1 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
         .conteiner .our_restorant .three_itm .item1 .describe .type2 {
           text-align: center;
           width: 90px;
@@ -214,8 +237,26 @@
         .conteiner .our_restorant .three_itm .item1 .describe .name2 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item1 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item1 .describe .checkbox1 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
       .conteiner .our_restorant .three_itm .item2 .img2 {
         background: no-repeat;
         background-image: url(../../img/Image2.png);
@@ -224,7 +265,8 @@
         height: 177px; }
       .conteiner .our_restorant .three_itm .item2 .describe {
         background-color: #ededed;
-        height: 105px; }
+        height: 130px;
+        border-radius: 0 0 15px 15px; }
         .conteiner .our_restorant .three_itm .item2 .describe .type1 {
           text-align: center;
           width: 90px;
@@ -234,8 +276,26 @@
         .conteiner .our_restorant .three_itm .item2 .describe .name1 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item2 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
         .conteiner .our_restorant .three_itm .item2 .describe .type2 {
           text-align: center;
           width: 90px;
@@ -245,8 +305,26 @@
         .conteiner .our_restorant .three_itm .item2 .describe .name2 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item2 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item2 .describe .checkbox2 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
       .conteiner .our_restorant .three_itm .item3 .img3 {
         background: no-repeat;
         background-image: url(../../img/Image3.png);
@@ -255,7 +333,8 @@
         height: 177px; }
       .conteiner .our_restorant .three_itm .item3 .describe {
         background-color: #ededed;
-        height: 105px; }
+        height: 130px;
+        border-radius: 0 0 15px 15px; }
         .conteiner .our_restorant .three_itm .item3 .describe .type1 {
           text-align: center;
           width: 90px;
@@ -265,8 +344,26 @@
         .conteiner .our_restorant .three_itm .item3 .describe .name1 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item3 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
         .conteiner .our_restorant .three_itm .item3 .describe .type2 {
           text-align: center;
           width: 90px;
@@ -276,7 +373,219 @@
         .conteiner .our_restorant .three_itm .item3 .describe .name2 {
           font-size: 35px;
           font-weight: 600; }
-        .conteiner .our_restorant .three_itm .item3 .describe .checkbox {
-          float: left; }
+        .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 {
+          display: flex;
+          justify-content: space-between; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .time {
+            margin-left: 10px; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .mark {
+            transition: 0.5s;
+            display: flex;
+            background-color: #c2bbf0;
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: black; }
+          .conteiner .our_restorant .three_itm .item3 .describe .checkbox3 .active {
+            transition: 0.5s;
+            color: #5C4EAE; }
+    .conteiner .our_restorant .all {
+      float: right;
+      margin-top: 30px; }
+      .conteiner .our_restorant .all a {
+        color: #ACADB9;
+        text-decoration: none; }
+  .conteiner .line2 {
+    margin-top: 100px;
+    width: 1246px;
+    height: 1px;
+    background-color: #CBCBCB; }
+  .conteiner .customers {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px; }
+    .conteiner .customers span {
+      color: #5C4EAE; }
+  .conteiner .feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 350px; }
+    .conteiner .feedback .alex {
+      padding-top: 40px;
+      width: 528px;
+      background-color: #f5f4f4;
+      border-radius: 20px;
+      padding: 30px; }
+      .conteiner .feedback .alex .top .face {
+        float: left;
+        border-radius: 50%;
+        vertical-align: middle; }
+      .conteiner .feedback .alex .top .picture_r {
+        margin-right: 30px;
+        padding-top: 10px;
+        float: right;
+        vertical-align: middle; }
+      .conteiner .feedback .alex .top .cust_name {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-left: 100px;
+        font-weight: 500; }
+      .conteiner .feedback .alex .top .how_long {
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 7px;
+        margin-left: 100px;
+        color: #5E5D5D; }
+      .conteiner .feedback .alex .comment {
+        margin-top: 30px; }
+        .conteiner .feedback .alex .comment .stars {
+          margin-top: 20px; }
+    .conteiner .feedback .scroll {
+      display: flex;
+      white-space: nowrap;
+      width: 500px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      margin-left: 100px;
+      border-radius: 20px; }
+      .conteiner .feedback .scroll .comm1 {
+        white-space: pre-wrap;
+        margin-right: 50px;
+        font-size: 16px;
+        background-color: #f5f4f4;
+        border-radius: 20px;
+        padding: 40px; }
+        .conteiner .feedback .scroll .comm1 p {
+          width: 450px;
+          height: 250px; }
+        .conteiner .feedback .scroll .comm1 .stars {
+          margin-top: -180px; }
+          .conteiner .feedback .scroll .comm1 .stars img {
+            float: left; }
+      .conteiner .feedback .scroll .comm2 {
+        white-space: pre-wrap;
+        margin-right: 50px;
+        font-size: 16px;
+        background-color: #f5f4f4;
+        border-radius: 20px;
+        padding: 40px; }
+        .conteiner .feedback .scroll .comm2 p {
+          width: 450px;
+          height: 250px; }
+        .conteiner .feedback .scroll .comm2 .stars {
+          margin-top: -180px; }
+          .conteiner .feedback .scroll .comm2 .stars img {
+            float: left; }
+      .conteiner .feedback .scroll .comm3 {
+        white-space: pre-wrap;
+        margin-right: 50px;
+        font-size: 16px;
+        background-color: #f5f4f4;
+        border-radius: 20px;
+        padding: 40px; }
+        .conteiner .feedback .scroll .comm3 p {
+          width: 450px;
+          height: 250px; }
+        .conteiner .feedback .scroll .comm3 .stars {
+          margin-top: -180px; }
+          .conteiner .feedback .scroll .comm3 .stars img {
+            float: left; }
+    .conteiner .feedback .scroll::-webkit-scrollbar {
+      width: 5px;
+      margin-top: 10px; }
+    .conteiner .feedback .scroll::-webkit-scrollbar-track {
+      background-color: #9d8fee;
+      border-radius: 20px;
+      width: 5px; }
+    .conteiner .feedback .scroll::-webkit-scrollbar-thumb {
+      background-color: #5C4EAE;
+      border-radius: 20px; }
+  .conteiner .sale {
+    width: 100%;
+    background-color: #5C4EAE;
+    margin-top: 150px;
+    padding: 50px;
+    height: 280px; }
+    .conteiner .sale img {
+      float: right;
+      margin-top: 40px; }
+    .conteiner .sale .how_much {
+      font-size: 70px;
+      color: #FFF;
+      font-weight: 800; }
+    .conteiner .sale .mail {
+      position: relative; }
+      .conteiner .sale .mail #em {
+        width: 440px;
+        height: 68px;
+        padding-left: 30px;
+        border-radius: 15px;
+        border: none;
+        color: #FFF;
+        font-size: 13px;
+        color: #201F1F; }
+      .conteiner .sale .mail .sub {
+        position: absolute;
+        left: 330px;
+        top: 4px;
+        height: 60px;
+        width: 100px;
+        border-radius: 15px;
+        border: none;
+        background-color: #5C4EAE;
+        color: #fff; }
+
+footer {
+  background-color: #EAEAEA;
+  margin-top: 300px;
+  padding: 103px; }
+  footer .h_f {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    footer .h_f .left {
+      justify-content: space-between; }
+      footer .h_f .left .logo {
+        font-size: 24px;
+        color: #6C5FBC; }
+        footer .h_f .left .logo img {
+          margin-right: 11px;
+          vertical-align: middle; }
+    footer .h_f .right ul {
+      display: flex;
+      list-style-type: none; }
+      footer .h_f .right ul li {
+        color: #999;
+        margin-left: 60px; }
+        footer .h_f .right ul li a {
+          text-decoration: none;
+          color: #999; }
+        footer .h_f .right ul li a:hover {
+          color: #6C5FBC; }
+  footer .line {
+    margin-top: 44px;
+    width: 100%;
+    height: 1px;
+    background-color: #CBCBCB; }
+  footer .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: #999; }
+    footer .social ul {
+      width: 300px;
+      height: 24px;
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between; }
+      footer .social ul li {
+        width: 24px; }
 
 /*# sourceMappingURL=style.css.map */

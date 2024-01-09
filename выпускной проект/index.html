@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../fontawesome-/css/all.css">
+    
     <title>Eatly</title>
 </head>
 <body>
@@ -21,8 +23,8 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">Blog</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="blog.html">Blog</a></li>
                             <li><a href="">Pricing</a></li>
                             <li><a href="">Contact</a></li>
                         </ul>
@@ -30,7 +32,7 @@
                 </div>
             </div>
             <div class="head_r">
-                <a class="sign" href="#">sign up</a>
+                <a class="sign" href="sign.html">sign up</a>
                 <a href="#" class="log">login</a>
             </div>
         </div>
@@ -54,8 +56,8 @@
                 </div>
 
                 <div class="btns">
-                    <button><a href="">Get Started</a></button>
-                    <button><a href="">Go Pro</a></button>
+                    <button><a href="sign.html">Get Started</a></button>
+                    <button onclick="alert()" id="pro"><a href="">Go Pro</a></button>
                 </div>
             </div>
             <div class="img">
@@ -95,7 +97,12 @@
                     <div class="describe">
                         <div class="type1">Healthy</div>
                         <p class="name1">The Chicken King</p>
-                        <div></div>
+                        <div class="checkbox1">
+                            <div class="time">24 min &middot;</div>
+                            <button onclick="changeColorOne()" class="mark" id="book1">
+                                <div><i class="fa-solid fa-bookmark"></i></div>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="item2">
@@ -103,7 +110,12 @@
                     <div class="describe">
                         <div class="type2">Trending</div>
                         <p class="name2">The Burger King</p>
-                        <div></div>
+                        <div class="checkbox2">
+                            <div class="time">24 min &middot;</div>
+                            <button onclick="changeColorTwo()" class="mark" id="book2">
+                                <div><i class="fa-solid fa-bookmark"></i></div>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="item3">
@@ -111,14 +123,95 @@
                     <div class="describe">
                         <div class="type1">Healthy</div>
                         <p class="name1">The Chicken King</p>
-                        <div class="checkbox">
+                        <div class="checkbox3">
                             <div class="time">24 min &middot;</div>
+                            <button onclick="changeColorThree()" class="mark" id="book3">
+                                <div><i class="fa-solid fa-bookmark"></i></div>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="all"><a href="menu.html">View All &rarr;</a></div>
+        </div>
+
+        <div class="line2"></div>
+
+        <div class="customers">
+            <div class="says"><span>Customer</span> Say</div>
+        </div>
+
+
+        <div class="feedback">
+            <div class="alex">
+                <div class="top">
+                    <img class="face" src="../img/man.png" alt="">
+                    <img class="picture_r" src="../img/picture.png" alt="">
+                    <p class="cust_name">Alexander R.</p>
+                    <p class="how_long">01 Year With Us </p>
+                </div>
+                <div class="comment">
+                    <p>"Отличная служба доставки! Заказывал у них несколько раз уже и каждый раз был приятно удивлен. Еда всегда приходит вовремя, горячая и свежая. Ассортимент меню широкий, есть из чего выбрать для любого вкуса. Особенно порадовала вежливая и внимательная поддержка клиентов — быстро реагируют на вопросы и предоставляют полную информацию о заказе. Рекомендую Eatly всем, кто ценит качество и отличный сервис!"</p>
+                    <div class="stars">
+                        <img src="../img/Stars.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll">
+                <div class="comm1">
+                    <p>"Eatly - это моя находка! Они просто спасение в дни, когда нет времени готовить. Всегда точно знаю, что мой заказ будет доставлен быстро и безупречно упакован. Их выбор блюд просто потрясающий, от классических вариантов до удивительных новинок. Спасибо за ваш профессионализм и отличный сервис!"</p>
+                    <div class="stars">
+                        <img src="../img/Stars.png" alt="">
+                    </div>
+                </div>
+                <div class="comm2">
+                    <p>"Eatly - моя первая мысль, когда речь заходит о доставке еды. Они не перестают меня удивлять! Великолепный выбор блюд, вкусные порции и всегда свежие ингредиенты. Их система заказа очень удобна, и доставка всегда приходит вовремя. Однозначно рекомендую!"</p>
+                    <div class="stars">
+                        <img src="../img/Stars.png" alt="">
+                    </div>
+                </div>
+                <div class="comm3">
+                    <p>"Спасибо Eatly за отличный ужин! Легко и удобно оформить заказ, и в результате — вкуснейший ужин у меня дома. Каждый раз, когда заказываю у них, они подтверждают свою надежность и качество. Мне нравится их разнообразие меню и забота о клиентах. Буду заказывать снова и снова!"</p>
+                    <div class="stars">
+                        <img src="../img/Stars.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sale">
+            <img src="../img/img_food.png" alt="">
+            <p class="how_much">GET 50%</p>
+            <form action="" method="get" class="mail">
+                <input onclick="del()" type="email" name="email" id="em" value="Enter Your Email Address">
+                <button class="sub">Subscribe</button>
+            </form>
         </div>
     </div>
-    
+    <footer> 
+        <div class="h_f">
+            <div class="left">
+                <div class="logo">
+                <img src="../img/Logo.png" alt=""><a href="index.html"> eatly</a>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="social">
+            <p class="copy">&copy; 2023 EATLY All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

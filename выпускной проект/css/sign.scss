@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins' ;
+    box-sizing: border-box;
+}
+
+.cont{
+    display: flex;
+    height: 100%;
+.left{
+    width: 50%;
+    
+    .logo{
+        margin: 40px;
+
+    }
+    .sign{
+        margin-left: 170px;
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: 70px;
+    }
+
+    .social{
+        display: flex;
+        margin-left: 170px;
+        margin-top: 30px;
+
+        .google{
+            text-decoration: none;
+            color: #323142;
+
+            div{
+                width: 200px;
+                border: #323142 1px solid;
+                border-radius: 15px 0 0 15px;
+                text-align: center;
+            }
+        }
+        .apple{
+            text-decoration: none;
+            color: #323142;
+
+            div{
+                width: 200px;
+                border: #323142 1px solid;
+                border-radius: 0 15px 15px 0;
+                text-align: center;
+            }
+        }
+    }
+    .or{
+        margin-left: 355px;
+        margin-top: 50px;
+    }
+
+    .creds{
+        margin-left: 170px;
+
+        .name{
+            width: 400px;
+            height: 55px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .mail{
+            margin-top: 15px;
+            width: 400px;
+            height: 55px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .pass{
+            margin-top: 15px;
+            width: 400px;
+            height: 55px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .btn{
+            margin-top: 40px;
+            width: 400px;
+            height: 55px;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: #6C5FBC;
+            color: #fff;
+        }
+    }
+    .log_in{
+        margin-top: 10px;
+        margin-left: 250px;
+        a{
+            text-decoration: none;
+            color: #6C5FBC;
+        }
+    }
+    .privacy{
+        margin-top: 100px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: #718096;
+        a{
+            text-decoration: none;
+            color: #718096;
+        }
+    }
+}
+.right{
+    background-color: #6C5FBC;
+    width: 50%;
+}
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            header {
+        background-color: aqua;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .block {
+        height: 100vh;
+    }
+
+    .block:nth-child(2) {
+        background-color: #f006;
+        margin-top: 50px;
+    }
+
+    .block:nth-child(3) {
+        background-color: #00800082;
+    }
+
+    .block:nth-child(4) {
+        background-color: #0000ff91;
+    }
+
+    .block:nth-child(5) {
+        background-color: violet;
+    }
+
+    .block:nth-child(6) {
+        background-color: orange;
+    }
+    .humb{
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 14px;
+    }
+    #close{
+        display: none;
+    }
+
+    #menu{
+        transition: .5s;
+    }
+
+    @media all and (max-width: 1200px) {
+        .humb{
+            display: block;
+        }
+        ul {
+            display: block;
+            width: 100px;
+            position: absolute;
+            background: red;
+            top: 50px;
+            right: -100px;
+        }
+    }
+</style>
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="humb">
+        <div id="open">open</div>
+        <div id="close">close</div>
+    </div>
+
+    <ul id="menu">
+        <li>
+            <a href="#one">one</a>
+        </li>
+        <li>
+            <a href="#two">two</a>
+        </li>
+        <li>
+            <a href="#three">three</a>
+        </li>
+        <li>
+            <a href="#four">four</a>
+        </li>
+        <li>
+            <a href="#five">five</a>
+        </li>
+    </ul>
+</header>
+
+<div id="one" class="block"></div>
+<div id="two" class="block"></div>
+<div id="three" class="block"></div>
+<div id="four" class="block"></div>
+<div id="five" class="block"></div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('#menu').on('click', 'a', function (e) {
+            e.preventDefault();
+            var id = e.currentTarget.hash;
+            var top = $(id).offset().top;
+
+            $('html, body').animate({ scrollTop: top - 50 }, 1000);
+        });
+
+        $('#open').on('click', function(){
+            $('#menu').css('right', 0);
+            $(this).css('display', 'none');
+            $('#close').css('display', 'block');
+        })
+
+        $('#close').on('click', function(){
+            $('#menu').css('right', "-100px");
+            $(this).css('display', 'none');
+            $('#open').css('display', 'block');
+        })
+    })
+</script>
+</body>
+</html>

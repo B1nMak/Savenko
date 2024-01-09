@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box; }
+
+.conteiner {
+  margin: 0 auto;
+  width: 1248px;
+  position: relative; }
+  .conteiner .header {
+    display: flex;
+    padding: 20px;
+    font-family: 'Poppins'; }
+    .conteiner .header .head_l {
+      width: 50%;
+      display: flex;
+      justify-content: space-between; }
+      .conteiner .header .head_l .left {
+        display: flex;
+        justify-content: space-between; }
+        .conteiner .header .head_l .left .logo {
+          font-size: 24px;
+          color: #6C5FBC; }
+          .conteiner .header .head_l .left .logo img {
+            margin-right: 11px;
+            vertical-align: middle; }
+          .conteiner .header .head_l .left .logo a {
+            text-decoration: none;
+            color: #6C5FBC; }
+        .conteiner .header .head_l .left .menu ul {
+          padding: 10px;
+          display: flex;
+          list-style-type: none;
+          margin-left: 60px; }
+          .conteiner .header .head_l .left .menu ul li {
+            color: #7C6FCD;
+            margin-right: 50px; }
+            .conteiner .header .head_l .left .menu ul li a {
+              color: #7C6FCD;
+              text-decoration: none; }
+            .conteiner .header .head_l .left .menu ul li a:hover {
+              border-bottom: solid 3px #6C5FBC; }
+            .conteiner .header .head_l .left .menu ul li a:visited {
+              color: #7C6FCD; }
+    .conteiner .header .head_r {
+      width: 50%;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start; }
+      .conteiner .header .head_r .sign {
+        font-size: 15px;
+        margin-left: 30px;
+        color: #F9F9F9;
+        background-color: #6C5FBC;
+        text-decoration: none;
+        width: 128px;
+        height: 17px;
+        padding: 17px;
+        padding-bottom: 42px;
+        text-align: center;
+        border-radius: 17px; }
+      .conteiner .header .head_r .sign:hover {
+        transform: scale(1.2);
+        box-shadow: 5px 5px 15px 5px #D0D0D0; }
+      .conteiner .header .head_r .log {
+        width: 108px;
+        height: 17px;
+        padding: 17px;
+        padding-bottom: 42px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 17px; }
+      .conteiner .header .head_r .log:hover {
+        transform: scale(1.2);
+        box-shadow: 5px 5px 15px 5px #D0D0D0; }
+  .conteiner .line {
+    width: 1246px;
+    height: 1px;
+    background-color: #CBCBCB; }
+  .conteiner .carousel {
+    margin-top: 100px; }
+  .conteiner .search .find {
+    display: flex;
+    position: relative; }
+    .conteiner .search .find #find {
+      margin-top: 50px;
+      width: 100%;
+      height: 58px;
+      border-radius: 20px;
+      padding: 20px; }
+    .conteiner .search .find .lupa {
+      position: absolute;
+      border: none;
+      background-color: #fff;
+      top: 69px;
+      left: 1209px; }
+  .conteiner .choice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 30px; }
+    .conteiner .choice .food {
+      text-align: center;
+      width: 50%;
+      transition: 0.5s;
+      border: black solid 1px;
+      border-radius: 15px 0 0 15px; }
+      .conteiner .choice .food .eat {
+        text-decoration: none;
+        color: #5C4EAE;
+        transition: 0.5s; }
+    .conteiner .choice .food:hover {
+      background-color: #5C4EAE; }
+      .conteiner .choice .food:hover .eat {
+        color: #fff; }
+    .conteiner .choice .restorant {
+      text-align: center;
+      width: 50%;
+      border: black solid 1px;
+      border-radius: 0 15px 15px 0;
+      border-left: none;
+      transition: 0.5s; }
+      .conteiner .choice .restorant .rest {
+        text-decoration: none;
+        color: #5C4EAE;
+        transition: 0.5s; }
+    .conteiner .choice .restorant:hover {
+      background-color: #5C4EAE; }
+      .conteiner .choice .restorant:hover .rest {
+        color: #fff; }
+  .conteiner .our_restorant {
+    margin-top: 65px; }
+    .conteiner .our_restorant .our {
+      font-size: 40px;
+      font-weight: 600;
+      margin: 0 auto;
+      text-align: center; }
+      .conteiner .our_restorant .our span {
+        color: #5C4EAE; }
+  .conteiner .Dishes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px; }
+    .conteiner .Dishes .dish1 {
+      position: relative;
+      margin-right: 150px;
+      background-color: #F9F9F9;
+      margin-bottom: 50px;
+      width: 210px;
+      border-radius: 20px;
+      padding-bottom: 50px; }
+      .conteiner .Dishes .dish1 #heart1 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 #heart2 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 #heart3 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 #heart4 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 #heart5 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 #heart6 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish1 .name1 {
+        padding-left: 5px;
+        margin-left: 5px;
+        width: 70px;
+        border-radius: 20px;
+        color: #DAA31A;
+        background-color: #ffeab5; }
+      .conteiner .Dishes .dish1 .name_dish {
+        font-size: 45px; }
+      .conteiner .Dishes .dish1 .price {
+        font-size: 22px; }
+      .conteiner .Dishes .dish1 .how_many_stars {
+        position: absolute;
+        left: 10px;
+        bottom: 20px; }
+        .conteiner .Dishes .dish1 .how_many_stars span {
+          color: #5C4EAE; }
+    .conteiner .Dishes .dish2 {
+      position: relative;
+      margin-right: 150px;
+      background-color: #F9F9F9;
+      margin-bottom: 50px;
+      width: 210px;
+      border-radius: 20px;
+      padding-bottom: 50px; }
+      .conteiner .Dishes .dish2 #heart1 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 #heart2 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 #heart3 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 #heart4 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 #heart5 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 #heart6 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish2 .name2 {
+        padding-left: 5px;
+        margin-left: 5px;
+        width: 70px;
+        border-radius: 20px;
+        color: #FB471D;
+        background-color: #efad9e;
+        width: 80px; }
+      .conteiner .Dishes .dish2 .name_dish {
+        font-size: 45px; }
+      .conteiner .Dishes .dish2 .price {
+        font-size: 22px; }
+      .conteiner .Dishes .dish2 .how_many_stars {
+        position: absolute;
+        left: 10px;
+        bottom: 20px; }
+        .conteiner .Dishes .dish2 .how_many_stars span {
+          color: #5C4EAE; }
+    .conteiner .Dishes .dish3 {
+      position: relative;
+      margin-right: 150px;
+      background-color: #F9F9F9;
+      margin-bottom: 50px;
+      width: 210px;
+      border-radius: 20px;
+      padding-bottom: 50px; }
+      .conteiner .Dishes .dish3 #heart1 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 #heart2 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 #heart3 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 #heart4 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 #heart5 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 #heart6 {
+        position: absolute;
+        left: 180px;
+        border: none;
+        background-color: #F9F9F9; }
+      .conteiner .Dishes .dish3 .name3 {
+        padding-left: 5px;
+        margin-left: 5px;
+        width: 70px;
+        border-radius: 20px;
+        color: #309D5B;
+        background-color: #9bf0bd;
+        width: 85px; }
+      .conteiner .Dishes .dish3 .name_dish {
+        font-size: 45px; }
+      .conteiner .Dishes .dish3 .price {
+        font-size: 22px; }
+      .conteiner .Dishes .dish3 .how_many_stars {
+        position: absolute;
+        left: 10px;
+        bottom: 20px; }
+        .conteiner .Dishes .dish3 .how_many_stars span {
+          color: #5C4EAE; }
+
+footer {
+  background-color: #EAEAEA;
+  margin-top: 50px;
+  padding: 40px; }
+  footer .h_f {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    footer .h_f .left {
+      justify-content: space-between; }
+      footer .h_f .left .logo {
+        font-size: 24px;
+        color: #6C5FBC; }
+        footer .h_f .left .logo img {
+          margin-right: 11px;
+          vertical-align: middle; }
+    footer .h_f .right ul {
+      display: flex;
+      list-style-type: none; }
+      footer .h_f .right ul li {
+        color: #999;
+        margin-left: 60px; }
+        footer .h_f .right ul li a {
+          text-decoration: none;
+          color: #999; }
+        footer .h_f .right ul li a:hover {
+          color: #6C5FBC; }
+  footer .line {
+    margin-top: 44px;
+    width: 100%;
+    height: 1px;
+    background-color: #CBCBCB; }
+  footer .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: #999; }
+    footer .social ul {
+      width: 300px;
+      height: 24px;
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between; }
+      footer .social ul li {
+        width: 24px; }
